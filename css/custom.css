@@ -1,6 +1,6 @@
 body {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	background-color: #d1d3d4;
+	
 }
 p {
 	color: #949090;
@@ -9,16 +9,9 @@ p {
 .navbar-karthi {
 	height: 100px;
 }
+
 .fa {
 	color: #0A99B0;
 }
-div {
-	margin-top: 100px;
-}
-.coming-soon-logo {
-    margin: auto;
-}
-.coming-soon {
-	margin-bottom: 25px;
-	display: none;
-}
+.top-buffer { margin-top:50px; }
+.coming-soon-background {background-color:#DFDFDF; }
