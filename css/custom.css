@@ -19,8 +19,6 @@ div.media {
   cursor: pointer;
   border: solid thin #ccc;
 }
-div.media-body:hover, div.media-body:focus {
--webkit-box-shadow: 0 8px 6px -6px black;
-     -moz-box-shadow: 0 8px 6px -6px black;
-          box-shadow: 0 8px 6px -6px black;
+div.media-body:hover h2, div.media-body:focus h2 {
+   color: #ff0;
 }
