@@ -31,5 +31,4 @@ div.media .fa.fa-inverse, div.media .fa.fa-inverse {
 }
 div.media:hover .fa.fa-inverse, div.media:hover .fa.fa-inverse {
   animation: moveFromTop 400ms ease;
-  display: none;
 }
