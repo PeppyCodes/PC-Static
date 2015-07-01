@@ -25,3 +25,6 @@ div.media {
 div.media-body:hover, div.media-body:focus, div.media:hover .fa.fa-circle, div.media:hover .fa.fa-circle {
    color: #EF672F;
 }
+div.media:hover .fa.fa-inverse, div.media:hover .fa.fa-inverse {
+  animation: moveFromTop 400ms ease;
+}
