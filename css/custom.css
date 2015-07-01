@@ -15,3 +15,10 @@ p {
 }
 .top-buffer { margin-top:50px; }
 .coming-soon-background {background-color:#DFDFDF; }
+div.media-body {
+  cursor: pointer;
+  border: solid thin #ccc;
+}
+div.media-body:hover {
+  background-color: #DFDFDF;
+}
