@@ -1,6 +1,5 @@
 body {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	
 }
 p {
 	color: #949090;
@@ -9,16 +8,19 @@ p {
 .navbar-karthi {
 	height: 100px;
 }
-
 .fa {
 	color: #0A99B0;
 }
-.top-buffer { margin-top:50px; }
-.coming-soon-background {background-color:#DFDFDF; }
+.top-buffer {
+	margin-top: 50px;
+}
+.coming-soon-background {
+	background-color: #DFDFDF;
+}
 div.media {
-  cursor: pointer;
-  border: solid thin #ccc;
+	cursor: pointer;
+	border: solid thin #ccc;
 }
 div.media-body:hover, div.media-body:focus, div.media:hover .fa.fa-circle, div.media:hover .fa.fa-circle {
-   color: #F61414; /*#EF672F;*/
+	color: #F61414; /*#EF672F;*/
 }
