@@ -9,8 +9,15 @@ p {
 	height: 100px;
 }
 .fa {
-	color: #0A99B0;
+  color: #0A99B0;
 }
+.top-buffer { 
+   margin-top:50px; 
+}
+.coming-soon-background {
+  background-color:#DFDFDF;
+}
+<<<<<<< HEAD
 .top-buffer {
 	margin-top: 50px;
 }
@@ -23,4 +30,18 @@ div.media {
 }
 div.media-body:hover, div.media-body:focus, div.media:hover .fa.fa-circle, div.media:hover .fa.fa-circle {
 	color: #F61414; /*#EF672F;*/
+=======
+div.media {
+  cursor: pointer;
+}
+div.media-body:hover, div.media-body:focus, div.media:hover .fa.fa-circle, div.media:hover .fa.fa-circle {
+   color: #EF672F;
+}
+div.media .fa.fa-inverse, div.media .fa.fa-inverse {
+  position: absolute;
+  transition: all 200ms linear;
+}
+div.media:hover .fa.fa-inverse, div.media:hover .fa.fa-inverse {
+  animation: moveFromTop 400ms ease;
+>>>>>>> origin/gh-pages
 }
