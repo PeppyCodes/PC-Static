@@ -379,7 +379,8 @@ body.offcanvas {
 .colorlib-work,
 .colorlib-about,
 .colorlib-services,
-.colorlib-contact {
+.colorlib-contact,
+.colorlib-publication{
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
@@ -1427,3 +1428,7 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.desc .list-group{
+    text-align: left;
+}
