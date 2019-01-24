@@ -798,6 +798,7 @@ ol {
 .footer-menu {
 	list-style: none;
 	float: right;
+	margin-right: 130px;
 }
 
 .footer-menu li {
@@ -831,6 +832,7 @@ ol {
 }
 
 .copyright {
+	text-align: center;
 	padding-top: 3px;
 	float: left;
 	font-size: 14px;
@@ -1280,7 +1282,8 @@ ol {
 #map-canvas {
 	height: 484px;
 	margin-top: 58px;
-	background: #ddd;
+	width: 100%;
+	/*background: #ddd;*/
 }
 
 /*------------------
@@ -1610,7 +1613,7 @@ ol {
 	}
 	.main-menu ul li a {
 		margin-left: 0;
-		padding: 17px 25px;
+		padding: 17px 0;
 		border-bottom: 1px solid #e8e8e8;
 		display: block;
 		color: #474747;
