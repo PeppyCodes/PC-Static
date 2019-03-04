@@ -1,3 +1,7 @@
+
+
+$color-1:/*#ed3974*/ /*#ff6138*/ #f46f25;
+
 // Heading Color
 $heading-color: #1a1a1a;
 
@@ -5,13 +9,13 @@ $heading-color: #1a1a1a;
 $text-color: #777777;
 
 // Default Background
-$bg-default: /*#ed3974*/ #ff6138;
+$bg-default: $color-1;
 
 // Gray Background
 $bg-gray: #f2f4f5;
 
 // Primary Color
-$pri-color: /*#ed3974*/ #ff6138;
+$pri-color: $color-1;
 
 // White Color
 $white-color: #ffffff;
@@ -23,7 +27,7 @@ $dark-color: #000000;
 $border-color: #ebebeb;
 
 // Hover Color
-$hover-color: /*#ed3974*/ #ff6138;
+$hover-color: $color-1;
 
 // Footer Color
 $foo-color: #111111;

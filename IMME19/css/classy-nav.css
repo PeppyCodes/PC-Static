@@ -20,7 +20,8 @@ ol {
   margin: 0; }
   ul li,
   ol li {
-    list-style: none; }
+    list-style: none;
+  }
 
 img {
   height: auto;
