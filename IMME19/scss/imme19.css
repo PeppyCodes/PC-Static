@@ -1,3 +1,6 @@
+/* fallback for old browsers */
+/* Chrome 10-25, Safari 5.1-6 */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 /* Master Stylesheet */
 /* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700");
@@ -17,7 +20,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  background-color: #f2f4f5; }
+  background: linear-gradient(to left, #f7b733, #fc4a1a); }
 
 h1,
 h2,
@@ -219,7 +222,7 @@ img {
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
-  background-color: #f2f4f5;
+  background-color: linear-gradient(to left, #f7b733, #fc4a1a);
   padding: 10px 25px;
   border-left: 4px solid #f46f25; }
   .section-heading h5 {
@@ -246,7 +249,7 @@ img {
   background-color: transparent !important; }
 
 .bg-gray {
-  background-color: #f2f4f5; }
+  background-color: linear-gradient(to left, #f7b733, #fc4a1a); }
 
 .font-bold {
   font-weight: 700; }
@@ -1081,7 +1084,7 @@ input:focus {
     width: 100%;
     height: 50px;
     border: none;
-    background-color: #f2f4f5;
+    background-color: linear-gradient(to left, #f7b733, #fc4a1a);
     text-align: center;
     font-size: 14px;
     color: #a6a6a6;
@@ -1523,7 +1526,7 @@ input:focus {
         margin-right: 5px; }
 
 blockquote {
-  background-color: #f2f4f5;
+  background-color: linear-gradient(to left, #f7b733, #fc4a1a);
   padding: 15px 30px;
   border-left: 3px solid #f46f25; }
   blockquote .quote-text {
@@ -1840,7 +1843,7 @@ blockquote {
   .single-widget-area form input {
     width: 100%;
     height: 56px;
-    background-color: #f2f4f5;
+    background-color: linear-gradient(to left, #f7b733, #fc4a1a);
     font-size: 12px;
     font-style: italic;
     padding: 0 30px;
@@ -1849,7 +1852,7 @@ blockquote {
     margin-bottom: 30px; }
     .single-widget-area form input:focus {
       box-shadow: none;
-      background-color: #f2f4f5; }
+      background-color: linear-gradient(to left, #f7b733, #fc4a1a); }
 
 .comment_area {
   border-bottom: 1px solid #ebebeb;

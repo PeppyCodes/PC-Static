@@ -11,8 +11,11 @@ $text-color: #777777;
 // Default Background
 $bg-default: $color-1;
 
-// Gray Background
-$bg-gray: #f2f4f5;
+// Background Color
+$background-color: #fc4a1a;  /* fallback for old browsers */
+$background-color: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+$background-color: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 // Primary Color
 $pri-color: $color-1;

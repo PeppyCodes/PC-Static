@@ -31,7 +31,7 @@
 body {
     font-family: $fonts;
     font-size: 14px;
-    background-color: $bg-gray;
+    background: $background-color;
 }
 
 h1,
@@ -277,7 +277,7 @@ img {
     position: relative;
     z-index: 1;
     margin-bottom: 30px;
-    background-color: $bg-gray;
+    background-color: $background-color;
     padding: 10px 25px;
     border-left: 4px solid $pri-color;
     h5 {
@@ -310,7 +310,7 @@ img {
 }
 
 .bg-gray {
-    background-color: $bg-gray;
+    background-color: $background-color;
 }
 
 .font-bold {
@@ -1253,7 +1253,7 @@ input:focus {
         width: 100%;
         height: 50px;
         border: none;
-        background-color: $bg-gray;
+        background-color: $background-color;
         text-align: center;
         font-size: 14px;
         color: #a6a6a6;
@@ -1753,7 +1753,7 @@ input:focus {
 }
 
 blockquote {
-    background-color: $bg-gray;
+    background-color: $background-color;
     padding: 15px 30px;
     border-left: 3px solid $pri-color;
     .quote-text {
@@ -2117,7 +2117,7 @@ blockquote {
         input {
             width: 100%;
             height: 56px;
-            background-color: $bg-gray;
+            background-color: $background-color;
             font-size: 12px;
             font-style: italic;
             padding: 0 30px;
@@ -2126,7 +2126,7 @@ blockquote {
             margin-bottom: 30px;
             &:focus {
                 box-shadow: none;
-                background-color: $bg-gray;
+                background-color: $background-color;
             }
         }
     }
