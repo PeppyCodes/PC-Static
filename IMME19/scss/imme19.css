@@ -2214,4 +2214,10 @@ ul,
 ol.number {
   margin: 0; }
 
+.breadcrumb-item.active {
+  color: #f3b131; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #f3b131; }
+
 /*# sourceMappingURL=imme19.css.map */

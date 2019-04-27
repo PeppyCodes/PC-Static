@@ -2554,6 +2554,11 @@ ol.number {
     }
 }
 
-
+.breadcrumb-item.active {
+color: #f3b131;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+color: #f3b131;
+}
 
 //Karthi SCSS End
