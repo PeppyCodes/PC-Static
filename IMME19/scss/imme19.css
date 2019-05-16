@@ -221,7 +221,7 @@ img {
 .section-heading {
   position: relative;
   z-index: 1;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   background-color: linear-gradient(to left, #f7b733, #fc4a1a);
   padding: 10px 25px;
   border-left: 4px solid #f46f25; }
@@ -1964,6 +1964,9 @@ blockquote {
     margin-bottom: 10px; }
     .about-us-content ul li i {
       margin-right: 5px; }
+
+span {
+  color: #f46f25; }
 
 .single-team-member {
   position: relative;

@@ -276,7 +276,7 @@ img {
 .section-heading {
     position: relative;
     z-index: 1;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     background-color: $background-color;
     padding: 10px 25px;
     border-left: 4px solid $pri-color;
@@ -2269,6 +2269,10 @@ blockquote {
         }
     }
 }
+span {
+    color: $pri-color;
+
+}
 
 .single-team-member {
     position: relative;
@@ -2333,6 +2337,9 @@ blockquote {
             }
         }
     }
+
+
+
     .team-member-content {
         padding: 15px 30px;
         @media #{$breakpoint-xs} {
