@@ -276,7 +276,7 @@ img {
 .section-heading {
     position: relative;
     z-index: 1;
-    margin-bottom: 15px;
+    margin-bottom: 15px; /*Karthi Change*/
     background-color: $background-color;
     padding: 10px 25px;
     border-left: 4px solid $pri-color;
@@ -2269,16 +2269,12 @@ blockquote {
         }
     }
 }
-span {
-    color: $pri-color;
-
-}
 
 .single-team-member {
     position: relative;
     z-index: 1;
     border: 1px solid $border-color;
-    margin-bottom: 30px;
+    margin-bottom: 15px; /*Karthi Change*/
     @media #{$breakpoint-xs} {
         @include flex-wrap(wrap);
     }
@@ -2337,9 +2333,6 @@ span {
             }
         }
     }
-
-
-
     .team-member-content {
         padding: 15px 30px;
         @media #{$breakpoint-xs} {
