@@ -1392,8 +1392,8 @@ input:focus {
     position: relative;
     z-index: 1;
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 40%;
-    flex: 0 0 40%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
     max-width: 40%;
     width: 40%; }
     @media only screen and (max-width: 767px) {
@@ -1940,7 +1940,7 @@ blockquote {
   .breadcrumb-area .breadcrumb-content {
     text-align: center; }
     .breadcrumb-area .breadcrumb-content h2 {
-      color: #ffffff;
+      color: #fc4a1a;
       margin-bottom: 0;
       text-transform: uppercase; }
       @media only screen and (max-width: 767px) {

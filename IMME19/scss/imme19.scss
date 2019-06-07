@@ -1581,7 +1581,7 @@ input:focus {
     .post-thumbnail {
         position: relative;
         z-index: 1;
-        @include flex(0 0 40%);
+        @include flex(0 0 20%);
         max-width: 40%;
         width: 40%;
         @media #{$breakpoint-xs} {
@@ -2228,7 +2228,7 @@ blockquote {
     .breadcrumb-content {
         text-align: center;
         h2 {
-            color: $white-color;
+            color: #fc4a1a;
             margin-bottom: 0;
             text-transform: uppercase;
             @media #{$breakpoint-xs} {
