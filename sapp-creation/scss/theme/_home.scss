@@ -18,14 +18,20 @@
 }
 
 .p1-gradient-bg {
-	background-image: linear-gradient(to right top, #f7b733, #faa01f, #fc8712, #fd6b12, #fc4a1a);
+	//background-image: linear-gradient(to right top, #f7b733, #faa01f, #fc8712, #fd6b12, #fc4a1a);
+color: green;
 }
 
 
 
 .p1-gradient-color {
-	background-image: linear-gradient(to right top, #f7b733, #faa01f, #fc8712, #fd6b12, #fc4a1a);  -webkit-background-clip: text;
+  /*
+	background-image: linear-gradient(to right top, #f7b733, #faa01f, #fc8712, #fd6b12, #fc4a1a);
+	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  */
+	color: green;
+
 }
 
 
