@@ -20,6 +20,7 @@
     <!--
     CSS
     ============================================= -->
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/linearicons.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/nice-select.css">
@@ -35,7 +36,7 @@
     <div class="menutop-wrap">
         <div class="menu-top container">
             <div class="d-flex justify-content-between align-items-center">
-                <ul class="list">
+                <ul class="list " >
                     <li><a href="tel:+91 8883372047">+91 8883372047</a></li>
 
                 </ul>
@@ -88,57 +89,31 @@
 <!-- start banner Area -->
 <section class="banner-area relative" id="home">
     <div class="container-fluid">
-        <div class="row fullscreen align-items-center justify-content-center">
-            <div class="col-lg-6 col-md-12 d-flex align-self-end img-right no-padding">
-                <img class="img-fluid" src="img/hero.png" alt="" style="max-height: 600px;">
+        <div class="row fullscreen align-items-center justify-content-center" style="max-height: 400px">
+            <div class="col-lg-12 col-md-12 d-flex align-self-end img-right no-padding" style="    position: absolute;
+    top:0;
+    right:0;
+    left:0;">
+                <img class="img-fluid js-tilt-glare wow tada" src="img/hero.png" alt="" style="max-height: 600px;" data-tilt data-tilt-scale="1.1" data-tilt-glare="true" data-tilt-max-glare="0.8">
             </div>
+<!--
             <div class="banner-content col-lg-6 col-md-12">
-                <h1 class="text-uppercase">SAPP Creations</h1>
+                <h1 class="text-uppercase">
+
+                    <img class="img-fluid js-tilt-glare " src="img/logobig.png" alt="" style="max-height: 600px;" &lt;!&ndash;data-tilt data-tilt-scale="1.1" data-tilt-glare="true" data-tilt-max-glare="0.8"&ndash;&gt;>
+
+
+                </h1>
                 <h1 class="title-top"><span>Superlative Printing Shop in Trichy</span></h1>
                 <button class="primary-btn text-uppercase"><a href="#">Contact Now</a></button>
             </div>
+-->
         </div>
     </div>
 </section>
 <!-- End banner Area -->
 
 
-<!--About Start-->
-<section class="category-area section-gap section-gap" >
-<div class="whole-wrap pb-10">
-    <div class="container text-center">
-        <div class="section-top-border">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="single-defination">
-
-                        <i class="fa fa-cog  fa-4x fa-fw" style="color:#f64448; padding-bottom: .5em;"></i>
-
-                        <h3 class="mb-20">Latest Technology</h3>
-                        <p>Our Equipment are updated regularly, so they won't break</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-defination">
-                        <i class="fa fa-clock-o fa-4x fa-fw" style="color:#f64448; padding-bottom: .5em;"></i>
-
-                        <h3 class="mb-20">On Time Delivery</h3>
-                        <p>We Deliver in time</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-defination">
-                        <i class="fa fa-inr fa-4x fa-fw" style="color:#f64448; padding-bottom: .5em;"></i>
-
-                        <h3 class="mb-20">Reasonable Price</h3>
-                        <p>We serve you at reasonable price</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div></section>
-<!--About End-->
 
 
 <!-- Start category Area -->
@@ -327,6 +302,24 @@
             <div class="col-lg-3 col-md-6 single-product">
                 <div class="content">
                     <div class="content-overlay"></div>
+                    <img class="content-image img-fluid d-block mx-auto" src="img/letterhead.jpg" alt="">
+                    <!--<div class="content-details fadeIn-bottom">
+                          <div class="bottom d-flex align-items-center justify-content-center">
+                              <a href="#"><span class="lnr lnr-heart"></span></a>
+                              <a href="#"><span class="lnr lnr-layers"></span></a>
+                              <a href="#"><span class="lnr lnr-cart"></span></a>
+                              <a href="#" data-toggle="modal" data-target="#exampleModal"><span class="lnr lnr-frame-expand"></span></a>
+                          </div>
+                    </div>-->
+                </div>
+                <div class="price">
+                    <h5>Letterhead</h5>
+                    <!--						  		<h3>Rs. 150.00</h3>-->
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 single-product">
+                <div class="content">
+                    <div class="content-overlay"></div>
                     <img class="content-image img-fluid d-block mx-auto" src="img/id-card.jpg" alt="">
                     <!--<div class="content-details fadeIn-bottom">
                           <div class="bottom d-flex align-items-center justify-content-center">
@@ -342,7 +335,6 @@
                     <!--						  		<h3>Rs. 150.00</h3>-->
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-6 single-product">
                 <div class="content">
                     <div class="content-overlay"></div>
@@ -468,24 +460,6 @@
                 </div>
                 <div class="price">
                     <h5>Calendar</h5>
-                    <!--						  		<h3>Rs. 150.00</h3>-->
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 single-product">
-                <div class="content">
-                    <div class="content-overlay"></div>
-                    <img class="content-image img-fluid d-block mx-auto" src="img/letterhead.jpg" alt="">
-                    <!--<div class="content-details fadeIn-bottom">
-                          <div class="bottom d-flex align-items-center justify-content-center">
-                              <a href="#"><span class="lnr lnr-heart"></span></a>
-                              <a href="#"><span class="lnr lnr-layers"></span></a>
-                              <a href="#"><span class="lnr lnr-cart"></span></a>
-                              <a href="#" data-toggle="modal" data-target="#exampleModal"><span class="lnr lnr-frame-expand"></span></a>
-                          </div>
-                    </div>-->
-                </div>
-                <div class="price">
-                    <h5>Letterhead</h5>
                     <!--						  		<h3>Rs. 150.00</h3>-->
                 </div>
             </div>
@@ -731,6 +705,44 @@
 			</section>
 			 End brand Area -->
 
+
+<!--About Start-->
+<section class="category-area section-gap section-gap" >
+    <div class="whole-wrap pb-10">
+        <div class="container text-center">
+            <div class="section-top-border">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-defination">
+
+                            <i class="fa fa-cog  fa-4x fa-fw" style="color:#f64448; padding-bottom: .5em;"></i>
+
+                            <h3 class="mb-20">Latest Technology</h3>
+                            <p>Our Equipment are updated regularly, so they won't break</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-defination">
+                            <i class="fa fa-clock-o fa-4x fa-fw" style="color:#f64448; padding-bottom: .5em;"></i>
+
+                            <h3 class="mb-20">On Time Delivery</h3>
+                            <p>We Deliver in time</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-defination">
+                            <i class="fa fa-inr fa-4x fa-fw" style="color:#f64448; padding-bottom: .5em;"></i>
+
+                            <h3 class="mb-20">Reasonable Price</h3>
+                            <p>We serve you at reasonable price</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></section>
+<!--About End-->
+
 <!-- start footer Area -->
 <footer class="footer-area section-gap" style="color: floralwhite;" id="contact">
     <div class="container">
@@ -829,6 +841,59 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/tilt.jquery.min.js"></script>
+<script>
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+        var section = document.createElement('section');
+        section.className = 'section--purple wow fadeInDown';
+        this.parentNode.insertBefore(section, this);
+    };
+</script>
+<script>
+    const tilt = $('.js-tilt').tilt();
 
+    $('.js-destroy').on('click', function () {
+        const element = $(this).closest('.js-parent').find('.js-tilt');
+        element.tilt.destroy.call(element);
+    });
+
+    $('.js-getvalue').on('click', function () {
+        const element = $(this).closest('.js-parent').find('.js-tilt');
+        const test = element.tilt.getValues.call(element);
+        console.log(test[0]);
+    });
+
+    $('.js-reset').on('click', function () {
+        const element = $(this).closest('.js-parent').find('.js-tilt');
+        element.tilt.reset.call(element);
+    });
+
+    $('.js-tilt').tilt({
+        glare: true,
+        maxGlare: .5
+    });
+    /*tilt.on('change', function (e, transforms) {
+     console.log(transforms);
+     });
+
+     tilt.on('tilt.mouseLeave', function (e) {
+     console.log(e);
+     });
+
+     tilt.on('tilt.mouseEnter', function (e) {
+     console.log(e);
+     });*/
+</script>
 </body>
 </html>
