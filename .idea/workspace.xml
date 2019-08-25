@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d7924e1-74a3-4965-bbcd-567bdf2e8082" name="Default Changelist" comment="" />
+    <list default="true" id="9d7924e1-74a3-4965-bbcd-567bdf2e8082" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1563364490999</updated>
       <workItem from="1563364498192" duration="3123000" />
+      <workItem from="1565933476153" duration="14000" />
+      <workItem from="1566021882873" duration="35000" />
     </task>
     <servers />
   </component>
@@ -74,10 +78,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" />
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/1920.1080" />
   </component>
 </project>
