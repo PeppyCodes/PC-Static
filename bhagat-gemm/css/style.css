@@ -9,7 +9,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: HostHub Construction 
+@Template Name: HostHub Construction
 @Author: Rocky Ahmed
 @Developed By: Rocky Ahmed
 @Developer URL: http://rocky.wethemez.com
@@ -26,14 +26,14 @@ Table of Content:
 06/ breadcrumb
 07/ about
 08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
+09/ project
+10/ price
+11/ team
+12/ blog
+13/ video
+14/ features
+15/ career
+16/ contact
 17/ footer
 
 =====================================================================*/
@@ -4250,4 +4250,12 @@ h6 {
 
 /*---------------------------------------------------- */
 
-/*# sourceMappingURL=style.css.map */
+.facts-area {
+    background: -moz-linear-gradient(0deg, #a7cb00 0%, #a7cb00 100%);
+    background: -webkit-linear-gradient(0deg, #a7cb00 0%, #a7cb00 100%);
+    background: -ms-linear-gradient(0deg, #a7cb00 0%, #a7cb00 100%);
+}
+
+.single-fact h1, .single-fact p {
+    color: white;
+}
